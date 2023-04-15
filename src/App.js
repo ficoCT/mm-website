@@ -1,10 +1,20 @@
 function App() {
   return (
-    <div className="App">
-
-          Learn React
-
-    </div>
+    <Routes>
+    <Route
+        path="/"
+        element={
+                <NavbarApp/>
+        }
+    >
+        <Route
+            path="home"
+            element={
+                <Home/>
+            }
+        />  
+    </Route>
+    </Routes>
   );
 }
 
