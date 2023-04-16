@@ -1,22 +1,19 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet} from "react-router-dom";
+import Navbar from "../components/Navbar";
+import Footer  from "../components/Footer";
 
 export default function Root() {
     return (
       <>
-        <div id="sidebar">
-          <nav>
-            <ul>
-                <li>
-                <Link to={`home`}>Strona główna</Link>
-                </li>
-                <li>
-                <Link to={`contact`}>Kontakt</Link>
-                </li>
-            </ul>
-          </nav>
+        <header>
+          <Navbar />
+        </header>
+        <main>
           <Outlet />
-        </div>
-        <div id="detail"></div>
+        </main>
+        <footer>
+          <Footer />
+        </footer>
       </>
     );
   }
