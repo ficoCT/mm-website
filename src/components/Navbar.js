@@ -9,7 +9,16 @@ export default function Navbar() {
           <Link to={`home`}>Strona główna</Link>
           </li>
           <li>
+          <Link to={`courses`}>Kursy szkolenia</Link>
+          </li>
+          <li>
+          <Link to={`service`}>Usługi</Link>
+          </li>
+          <li>
           <Link to={`contact`}>Kontakt</Link>
+          </li>
+          <li>
+          <Link to={`contact`}>Facebook Instagram</Link>
           </li>
       </ul>
     </nav>

@@ -9,6 +9,8 @@ import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Home from "./routes/Home";
 import Contact from "./routes/Contact";
+import Courses from "./routes/Courses";
+import Service from "./routes/Service";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
       {
         path: "home",
         element: <Home />,
+      },
+      {
+        path: "courses",
+        element: <Courses />,
+      },
+      {
+        path: "service",
+        element: <Service />,
       },
       {
         path: "contact",
