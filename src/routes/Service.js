@@ -1,8 +1,10 @@
+import ServiceDetails  from "../components/ServiceDetails";
+
 export default function Service() {
 
   return (
     <div>
-        Service
+      <ServiceDetails /> < br/>
     </div>
   );
 }
