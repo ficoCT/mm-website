@@ -1,10 +1,12 @@
 export default function ContactUs() {
 
   return (
-    <>
-    SKONTAKTUJ SIĘ Z NAMI
-      +48 539 700 112
-      medyczne.centrumtacmed@gmail.com
-    </>
+    <div className="contactUs">
+      <div>
+        <div>SKONTAKTUJ SIĘ Z NAMI</div> 
+        <div>+48 539 700 112</div>
+        <div>medyczne.centrumtacmed@gmail.com</div>
+      </div>
+    </div>
   );
 }
