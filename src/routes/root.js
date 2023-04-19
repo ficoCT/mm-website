@@ -1,14 +1,12 @@
 import { Outlet} from "react-router-dom";
-import Navbar from "../components/Navbar";
-import Footer  from "../components/Footer";
-import Name  from "../components/Name";
+import Top from "./Top";
+import Footer  from "./Footer";
 
 export default function Root() {
     return (
       <>
         <header>
-          <Name />
-          <Navbar />
+          <Top />
         </header>
         <main>
           <Outlet />
