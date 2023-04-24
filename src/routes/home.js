@@ -6,7 +6,7 @@ import Description  from "../components/Description";
 export default function Home() {
 
   return (
-    <div className="container home">
+    <div className="container content">
       <ContactUs /> < br/>
       <Slider /> < br/>
       <Logo /> < br/>

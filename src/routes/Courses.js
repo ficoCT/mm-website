@@ -4,7 +4,7 @@ import Staff  from "../components/Staff";
 export default function Courses() {
 
   return (
-    <div>
+    <div className="container content">
       <Training /> < br/>
       <Staff /> < br/>
     </div>

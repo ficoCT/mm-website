@@ -2,15 +2,19 @@ export default function ContactDetails() {
 
   return (
     <>
-KONTAKT
-Medyczne Centrum Szkoleniowo Usługowe 
-TacMed Rescue Team
-Mariusz Matla 
-
-ul. Krakowska 377
-43-300 Bielsko-Biała
-NIP 7991929484
-tel: +48 539 700 112
+    KONTAKT
+    <div>
+      Medyczne Centrum Szkoleniowo Usługowe TacMed Rescue Team <br />
+      Mariusz Matla 
+    </div>
+    <div>
+      ul. Krakowska 377 <br />
+      43-300 Bielsko-Biała
+    </div>
+    <div>
+      NIP 7991929484 <br />
+      tel: +48 539 700 112
+    </div>
     </>
   );
 }
