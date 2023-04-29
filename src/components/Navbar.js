@@ -1,10 +1,21 @@
 import { Link } from "react-router-dom";
+import {isMobile} from 'react-device-detect';
+import Logo  from "./Logo";
 
 export default function Navbar() {
+
+  if (isMobile) {
+    return <div> This content is available only on mobile</div>
+  }
 
   return (
     <nav>
       <ul className="d-flex justify-content-between">
+          <li>
+          <Link to={`home`}>
+            <Logo />
+          </Link>
+          </li>
           <li>
           <Link to={`home`}>
             <span className="links">Strona główna</span>

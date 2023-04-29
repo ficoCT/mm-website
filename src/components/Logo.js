@@ -1,8 +1,9 @@
-export default function Logo() {
+import Image from "../assets/logo.jpg";
 
+function Logo() {
   return (
-    <>
-      Logo
-    </>
+      <img src={Image} alt="Logo" className="logo" />
   );
 }
+
+export default Logo;
