@@ -7,7 +7,7 @@ export default function Staff() {
     <>
       <span className="training_title mt-1">KADRA INSTRUKTORSKA</span>
       <div className="d-flex mt-2">
-          <img src={Image1} alt="Image1" className="image"/>
+          <img src={Image1} alt="Image1" className="image mr-2"/>
           <div className="p-2">
             <span className="training_title mt-1">"MATI"</span>
             <ul>
@@ -29,7 +29,7 @@ export default function Staff() {
             </div>
         </div>
       <div className="d-flex mt-2">
-          <img src={Image2} alt="Image1" className="image"/>
+          <img src={Image2} alt="Image1" className="image mr-2"/>
           <div className="p-2">
             <span className="training_title mt-1">"LAJON"</span>
             <ul>

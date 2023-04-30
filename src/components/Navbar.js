@@ -13,7 +13,7 @@ export default function Navbar() {
       <ul className="d-flex justify-content-between">
           <li>
           <Link to={`home`}>
-            <Logo />
+            <Logo />  
           </Link>
           </li>
           <li>

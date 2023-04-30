@@ -9,7 +9,8 @@ body {
 }
 
 .content {
-  background-color: azure;
+  background-color: #262626;
+  color: white;
   padding: 1rem;
   border-radius: 0.25rem;
 }
@@ -17,6 +18,17 @@ body {
 .image {
   width: 30%;
   border-radius: 0.2rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.text {
+  font-size: 1.2rem;
 }
 
 
