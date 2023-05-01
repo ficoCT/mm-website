@@ -8,6 +8,11 @@ body {
   background-image: url("../../assets/background.jpg");
 }
 
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .content {
   background-color: #262626;
   color: white;
@@ -29,6 +34,11 @@ body {
 
 .text {
   font-size: 1.2rem;
+}
+
+.mobile__container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 
