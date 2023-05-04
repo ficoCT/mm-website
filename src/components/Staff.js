@@ -52,7 +52,7 @@ export default function Staff() {
           <div className="d-flex flex-column mt-2">
               <img src={Image1} alt="Image1" className="mobile__image mr-2"/>
               <div className="p-2">
-                <span className="training_title mt-1">"MATI"</span>
+                <span className="title mt-1">"MATI"</span>
                 <ul>
                   <li>Ratownik Medyczny</li>
                   <li>Kierowca pojazdów uprzywilejowanych</li>
@@ -74,7 +74,7 @@ export default function Staff() {
           <div className="d-flex flex-column mt-2">
               <img src={Image2} alt="Image2" className="mobile__image mr-2"/>
               <div className="p-2">
-                <span className="training_title mt-1">"LAJON"</span>
+                <span className="title mt-1">"LAJON"</span>
                 <ul>
                   <li>Ratownik Kwalifikowanej Pierwszej Pomocy</li>
                   <li>Ratownik Pola Walki</li>

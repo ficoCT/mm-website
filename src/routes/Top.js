@@ -1,6 +1,7 @@
 import Name  from "../components/Name";
 import Navbar  from "../components/Navbar";
 import ButtonNav  from "../components/ButtonNav";
+import { MobileView } from "react-device-detect";
 import {useState} from "react";
 
 export default function Top() {
@@ -13,7 +14,9 @@ export default function Top() {
 
   return (
     <div className="container d-flex flex-column  mt-3">
-      <ButtonNav onShowNavbar={showNavbar}/> 
+      <MobileView>
+        <ButtonNav onShowNavbar={showNavbar}/> 
+      </MobileView>
       <Name /> < br/>
       <Navbar show={show}/> < br/>
     </div>

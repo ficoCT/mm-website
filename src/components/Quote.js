@@ -5,7 +5,7 @@ export default function Quote() {
   return (
     <>
       <BrowserView>
-        <div className="quote center text-center">
+        <div className="quote w-100 text-center">
           <span className="quoteText ml-2">
             Dopóki walczysz jesteś zwycięzcą 
           </span> <br />
