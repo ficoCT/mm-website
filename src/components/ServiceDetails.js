@@ -15,7 +15,7 @@ export default function ServiceDetails() {
           <div className="d-flex mt-2">
             <img src={Image1} alt="Image1" className="image mr-2"/>
             <div className="p-2">
-              <span className="title mt-1">Oferujemy wynajem Ambulansu z Ratownikiem Medycznym posiadającym uprawnienia do kierowania pojazdami uprzywilejowanymi.
+              <span className="title mt-1">Oferujemy wynajem ambulansu, karetki, pojazdu sanitarnego z Ratownikiem Medycznym posiadającym uprawnienia do kierowania pojazdami uprzywilejowanymi.
               Praktykującym w Zespołach Ratownictwa Medycznego.</span>
               </div>
           </div>
@@ -68,7 +68,7 @@ export default function ServiceDetails() {
             <img src={Image4} alt="Image4" className="image mr-2"/>
             <div className="p-2">
               <span className="title mt-1">(Oferuję również usługi: wynajmu, szkolenia z pierwszej pomocy, organizacji imprez integracyjnych oraz innych)</span>
-                <span className="text">POLECAM</span>
+                <span className="text">SYMULACJA WYSOKIEJ WIERNOŚCI</span>
             </div>
           </div>
           <div className="d-flex mt-2">
@@ -81,6 +81,11 @@ export default function ServiceDetails() {
           <img src={Image6} alt="Image6" className="image mr-2"/>
           <div className="p-2">
           <span className="title mt-1">Osobisty Pakiet Medyczny</span>
+          <span className="text">
+            Powstał w oparciu o doświadczenie zdobywane w warunkach pola walki (IX, XI zmiana PKW
+            Afganistan) oraz o doświadczenie zdobywane w trakcie samokształcenia w kraju oraz
+            zagranicą.
+          </span>
            </div>
         </div>
         <div className="d-flex mt-2">
@@ -88,7 +93,7 @@ export default function ServiceDetails() {
           <div className="p-2">
             <span className="title mt-1">ORGANIZUJEMY RÓWNIEŻ</span>
             <ul className="text">
-              <li>Spotkania integracyjne z elementami kursu pierwszej pomocy przedmedycznej</li>
+              <li>Spotkania integracyjne z elementami kursu pierwszej pomocy pod nazwą „Integruj się bezpiecznie”</li>
               <li>Pierwsza pomoc w ramach zabawy na urodzinach u Twojego dziecka "Mały Ratownik"</li>
               <li>Pokazy Ratownictwa Taktycznego na zlotach Militarnych</li>
             </ul>
@@ -99,7 +104,7 @@ export default function ServiceDetails() {
             <div className="d-flex flex-column mt-2">
               <img src={Image1} alt="Image1" className="mobile__image mr-2"/>
               <div className="p-2">
-                <span className="title mt-1">Oferujemy wynajem Ambulansu z Ratownikiem Medycznym posiadającym uprawnienia do kierowania pojazdami uprzywilejowanymi.
+                <span className="title mt-1">Oferujemy wynajem ambulansu, karetki, pojazdu sanitarnego z Ratownikiem Medycznym posiadającym uprawnienia do kierowania pojazdami uprzywilejowanymi.
                 Praktykującym w Zespołach Ratownictwa Medycznego.</span>
                 </div>
             </div>
@@ -152,7 +157,7 @@ export default function ServiceDetails() {
               <img src={Image4} alt="Image4" className="mobile__image mr-2"/>
               <div className="p-2">
                 <span className="title mt-1">(Oferuję również usługi: wynajmu, szkolenia z pierwszej pomocy, organizacji imprez integracyjnych oraz innych)</span>
-                  <span className="text">POLECAM</span>
+                  <span className="text">SYMULACJA WYSOKIEJ WIERNOŚCI</span>
               </div>
             </div>
             <div className="d-flex flex-column mt-2">
@@ -165,6 +170,11 @@ export default function ServiceDetails() {
             <img src={Image6} alt="Image6" className="mobile__image mr-2"/>
             <div className="p-2">
             <span className="title mt-1">Osobisty Pakiet Medyczny</span>
+            <span className="text">
+              Powstał w oparciu o doświadczenie zdobywane w warunkach pola walki (IX, XI zmiana PKW
+              Afganistan) oraz o doświadczenie zdobywane w trakcie samokształcenia w kraju oraz
+              zagranicą.
+          </span>
             </div>
           </div>
           <div className="d-flex flex-column mt-2">
@@ -172,7 +182,7 @@ export default function ServiceDetails() {
             <div className="p-2">
               <span className="title mt-1">ORGANIZUJEMY RÓWNIEŻ</span>
               <ul className="text">
-                <li>Spotkania integracyjne z elementami kursu pierwszej pomocy przedmedycznej</li>
+                <li>Spotkania integracyjne z elementami kursu pierwszej pomocy pod nazwą „Integruj się bezpiecznie”</li>
                 <li>Pierwsza pomoc w ramach zabawy na urodzinach u Twojego dziecka "Mały Ratownik"</li>
                 <li>Pokazy Ratownictwa Taktycznego na zlotach Militarnych</li>
               </ul>

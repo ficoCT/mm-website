@@ -7,7 +7,7 @@ export default function Quote() {
       <BrowserView>
         <div className="quote w-100 text-center">
           <span className="quoteText ml-2">
-            Dopóki walczysz jesteś zwycięzcą 
+            Dopóki walczysz jesteś zwycięzcą ...
           </span> <br />
           <span className="quoteAuthor">
             - św. Augustyn

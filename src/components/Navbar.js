@@ -9,11 +9,6 @@ export default function Navbar({show}) {
     <BrowserView>
       <nav>
         <ul className="d-flex justify-content-between">
-            <li>
-            <Link to={`home`}>
-              <Logo />  
-            </Link>
-            </li>
             <li className="d-flex">
             <Link to={`home`}>
               <span className="links">Strona główna</span>
@@ -21,7 +16,7 @@ export default function Navbar({show}) {
             </li>
             <li className="d-flex"> 
             <Link to={`courses`}>
-              <span className="links"> Kursy szkolenia</span>
+              <span className="links"> Kursy / szkolenia</span>
             </Link>
             </li>
             <li className="d-flex"> 

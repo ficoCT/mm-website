@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <BrowserView>
-        <div className="container content d-flex flex-column">
+        <div className="container content d-flex flex-column align-items-center">
           <ContactUs /> < br/>
           <Slider /> < br/>
           <Quote /> < br/>
