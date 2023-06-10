@@ -3,8 +3,6 @@ import Image2 from "../assets/TraininImage2.jpg";
 import Image3 from "../assets/TraininImage3.jpg";
 import Image4 from "../assets/TraininImage4.jpg";
 import Image5 from "../assets/TraininImage5.jpg";
-import Image6 from "../assets/TraininImage6.jpg";
-import Image7 from "../assets/TraininImage7.jpg";
 import { BrowserView, MobileView } from "react-device-detect";
 
 export default function Title() {
@@ -75,23 +73,6 @@ export default function Title() {
             <span className="title mt-1">Szkolenie SURVIVALOWE</span>
           </div>
         </div>
-        <div className="d-flex mt-2">
-          <img src={Image6} alt="Image6" className="image mr-2"/>
-          <div className="p-2">
-          <span className="title mt-1">Osobisty Pakiet Medyczny</span>
-           </div>
-        </div>
-        <div className="d-flex mt-2">
-          <img src={Image7} alt="Image7" className="image mr-2"/>
-          <div className="p-2">
-            <span className="title mt-1">ORGANIZUJEMY RÓWNIEŻ</span>
-            <ul className="text">
-              <li>Spotkania integracyjne z elementami kursu pierwszej pomocy przedmedycznej</li>
-              <li>Pierwsza pomoc w ramach zabawy na urodzinach u Twojego dziecka "Mały Ratownik"</li>
-              <li>Pokazy Ratownictwa Taktycznego na zlotach Militarnych</li>
-            </ul>
-          </div>
-        </div>
       </BrowserView>
       <MobileView>
         <span className="title mt-1">OFERUJEMY KURSY I SZKOLENIA DLA OSÓB INDYWIDUALNY, FIRM I INSTYTUCJI<br />
@@ -155,23 +136,6 @@ export default function Title() {
             <img src={Image5} alt="Image5" className="mobile__image mr-2"/>
             <div className="p-2">
               <span className="title mt-1">Szkolenie SURVIVALOWE</span>
-            </div>
-          </div>
-          <div className="d-flex flex-column mt-2">
-            <img src={Image6} alt="Image6" className="mobile__image mr-2"/>
-            <div className="p-2">
-            <span className="title mt-1">Osobisty Pakiet Medyczny</span>
-            </div>
-          </div>
-          <div className="d-flex flex-column mt-2">
-            <img src={Image7} alt="Image7" className="mobile__image mr-2"/>
-            <div className="p-2">
-              <span className="title mt-1">ORGANIZUJEMY RÓWNIEŻ</span>
-              <ul className="text">
-                <li>Spotkania integracyjne z elementami kursu pierwszej pomocy przedmedycznej</li>
-                <li>Pierwsza pomoc w ramach zabawy na urodzinach u Twojego dziecka "Mały Ratownik"</li>
-                <li>Pokazy Ratownictwa Taktycznego na zlotach Militarnych</li>
-              </ul>
             </div>
           </div>
       </MobileView>

@@ -7,7 +7,6 @@ export default function Staff() {
   return (
     <>
       <BrowserView>
-        <span className="training_title mt-1">KADRA INSTRUKTORSKA</span>
         <div className="d-flex mt-2">
             <img src={Image1} alt="Image1" className="image mr-2"/>
             <div className="p-2">
@@ -48,7 +47,6 @@ export default function Staff() {
           </div>
       </BrowserView>
       <MobileView>
-        <span className="training_title mt-1">KADRA INSTRUKTORSKA</span>
           <div className="d-flex flex-column mt-2">
               <img src={Image1} alt="Image1" className="mobile__image mr-2"/>
               <div className="p-2">

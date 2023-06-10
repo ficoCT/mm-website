@@ -9,6 +9,7 @@ import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Home from "./routes/Home";
 import Contact from "./routes/Contact";
+import Staff from "./routes/Staff";
 import Courses from "./routes/Courses";
 import Service from "./routes/Service";
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "courses",
         element: <Courses />,
+      },
+      {
+        path: "staff",
+        element: <Staff />,
       },
       {
         path: "service",

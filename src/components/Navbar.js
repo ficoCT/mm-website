@@ -24,6 +24,11 @@ export default function Navbar({show}) {
               <span className="links"> Kursy szkolenia</span>
             </Link>
             </li>
+            <li className="d-flex"> 
+            <Link to={`staff`}>
+              <span className="links"> Kadra instruktorska</span>
+            </Link>
+            </li>
             <li className="d-flex">
             <Link to={`service`}>
               <span className="links">Usługi</span>
