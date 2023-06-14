@@ -1,10 +1,10 @@
 import Image1 from "../assets/ServiceImage1.jpg";
 import Image2 from "../assets/ServiceImage2.jpg";
 import Image3 from "../assets/ServiceImage3.jpg";
-import Image4 from "../assets/ServiceImage4.jpg";
+import Image4 from "../assets/ServiceImage4.png";
 import Image5 from "../assets/ServiceImage5.jpg";
-import Image6 from "../assets/TraininImage6.jpg";
-import Image7 from "../assets/TraininImage7.jpg";
+import Image6 from "../assets/ServiceImage6.jpg";
+import Image7 from "../assets/ServiceImage7.jpg";
 import { BrowserView, MobileView } from "react-device-detect";
 
 export default function ServiceDetails() {

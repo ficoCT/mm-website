@@ -1,8 +1,8 @@
-import Image1 from "../assets/TraininImage1.jpg";
-import Image2 from "../assets/TraininImage2.jpg";
-import Image3 from "../assets/TraininImage3.jpg";
-import Image4 from "../assets/TraininImage4.jpg";
-import Image5 from "../assets/TraininImage5.jpg";
+import Image1 from "../assets/TrainingImage1.jpg";
+import Image2 from "../assets/TrainingImage2.jpg";
+import Image3 from "../assets/TrainingImage3.jpg";
+import Image4 from "../assets/TrainingImage4.jpg";
+import Image5 from "../assets/TrainingImage5.jpg";
 import { BrowserView, MobileView } from "react-device-detect";
 
 export default function Title() {
