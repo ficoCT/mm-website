@@ -60,18 +60,35 @@ export default function Title() {
           <div className="p-2">
             <span className="title mt-1">Pierwsza pomoc w off-road</span>
             <span className="text"> Dla wszystkich pasjonatów 4x4, QUAD, OFF-ROAD, VANLIFE</span>
+            <br />
+            <span className="text"> 
+              Bezpieczeństwo własne oraz bliskich w trakcie wyprawy. <br />
+              Udzielanie pierwszej pomocy w sytuacjach kryzysowych. <br />
+              Przygotowanie apteczki na wyjazd. <br />
+            </span>
           </div>
         </div>
         <div className="d-flex mt-2">
           <img src={Image4} alt="Image4" className="image mr-2"/>
           <div className="p-2">
-            <span className="title mt-1">Szkolenia medyczne dostosowane do specyfiki działania</span>
+            <span className="title mt-1">Szkolenia medyczne dostosowane do specyfiki działania dla:</span>
+              <ul className="text">
+                <li>żołnierzy</li>
+                <li>funkcjonariuszy</li>
+                <li>pracowników ochrony</li>
+                <li>osób posiadających broń</li>
+              </ul>
           </div>
         </div>
         <div className="d-flex mt-2">
           <img src={Image5} alt="Image5" className="image mr-2"/>
           <div className="p-2">
             <span className="title mt-1">Pierwsza pomoc w military survival</span>
+            <span className="text"> 
+              Przygotowanie do wyprawy. <br />
+              Udzielanie pierwszej pomocy w sytuacjach kryzysowych. <br />
+              Przygotowanie apteczki. <br />
+            </span>
           </div>
         </div>
       </BrowserView>

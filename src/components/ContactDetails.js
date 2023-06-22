@@ -22,10 +22,10 @@ export default function ContactDetails() {
               tel: +48 539 700 112
             </div>
           </div>
-          <div>
+          <div className="d-flex flex-column text-center">
             Posiadamy Ośrodek Szkolenia
+            <img src={Image1} alt="Image1" className="imageContact mr-2"/>
           </div>
-          <img src={Image1} alt="Image1" className="imageContact mr-2"/>
         </div>
       </BrowserView>
       <MobileView>

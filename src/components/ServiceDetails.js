@@ -1,8 +1,7 @@
-import Image1 from "../assets/ServiceImage1.jpg";
+import Image1 from "../assets/ServiceImage1.png";
 import Image2 from "../assets/ServiceImage2.jpg";
 import Image3 from "../assets/ServiceImage3.jpg";
 import Image4 from "../assets/ServiceImage4.png";
-import Image5 from "../assets/ServiceImage5.jpg";
 import Image6 from "../assets/ServiceImage6.jpg";
 import Image7 from "../assets/ServiceImage7.jpg";
 import { BrowserView, MobileView } from "react-device-detect";
@@ -67,14 +66,7 @@ export default function ServiceDetails() {
           <div className="d-flex mt-2">
             <img src={Image4} alt="Image4" className="image mr-2"/>
             <div className="p-2">
-              <span className="title mt-1">(Oferuję również usługi: wynajmu, szkolenia z pierwszej pomocy, organizacji imprez integracyjnych oraz innych)</span>
-                <span className="text">SYMULACJA WYSOKIEJ WIERNOŚCI</span>
-            </div>
-          </div>
-          <div className="d-flex mt-2">
-            <img src={Image5} alt="Image5" className="image mr-2"/>
-            <div className="p-2">
-              <span className="title mt-1">Kierowca z karetką w POZ i Nocnej i Świąteczna Pomoc Lekarska</span>
+              <span className="title mt-1">PODCHODZIMY PROFESJONALNIE DO SYMULACJI WYSOKIEJ WIERNOŚCI </span>
             </div>
           </div>
           <div className="d-flex mt-2">
@@ -82,7 +74,7 @@ export default function ServiceDetails() {
           <div className="p-2">
           <span className="title mt-1">Osobisty Pakiet Medyczny</span>
           <span className="text">
-            Powstał w oparciu o doświadczenie zdobywane w warunkach pola walki (IX, XI zmiana PKW
+            Oferujemy Państwu Osobisty Pakiet Medyczny, który powstał w oparciu o doświadczenie zdobywane w warunkach pola walki (IX, XI zmiana PKW
             Afganistan) oraz o doświadczenie zdobywane w trakcie samokształcenia w kraju oraz
             zagranicą.
           </span>
@@ -156,14 +148,7 @@ export default function ServiceDetails() {
             <div className="d-flexflex-column mt-2">
               <img src={Image4} alt="Image4" className="mobile__image mr-2"/>
               <div className="p-2">
-                <span className="title mt-1">(Oferuję również usługi: wynajmu, szkolenia z pierwszej pomocy, organizacji imprez integracyjnych oraz innych)</span>
-                  <span className="text">SYMULACJA WYSOKIEJ WIERNOŚCI</span>
-              </div>
-            </div>
-            <div className="d-flex flex-column mt-2">
-              <img src={Image5} alt="Image5" className="mobile__image mr-2"/>
-              <div className="p-2">
-                <span className="title mt-1">Kierowca z karetką w POZ i Nocnej i Świąteczna Pomoc Lekarska</span>
+                <span className="title mt-1">PODCHODZIMY PROFESJONALNIE DO SYMULACJI WYSOKIEJ WIERNOŚCI </span>
               </div>
             </div>
             <div className="d-flex flex-column mt-2">
